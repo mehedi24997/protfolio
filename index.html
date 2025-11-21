@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-gray-900 text-white">
+    <header class="w-full bg-gray-900 border-b border-gray-800">
+        <div class="max-w-6xl mx-auto flex items-center justify-between px-4 py-4">
+            <a href="#home" class="flex items-center">
+                <span class="text-2xl font-bold text-blue-400">Mezba</span>
+            </a>
+
+            <nav class="flex gap-4 text-sm">
+                <a href="#home" class="text-blue-400">Home</a>
+                <a href="#about" class="hover:text-blue-300">About</a>
+                <a href="#projects" class="hover:text-blue-300">Projects</a>
+                <a href="#contact" class="hover:text-blue-300">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="bg-gray-900">
+        <div class="max-w-6xl mx-auto px-4 h-screen flex items-center">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center w-full">
+                <div class="flex flex-col gap-4">
+                    <h1 class="text-4xl md:text-5xl font-bold">
+                        Hi, It's <span class="text-blue-400">Mezba</span>
+                    </h1>
+
+                    <h3 class="text-xl md:text-2xl text-gray-300">
+                        I'm a <span class="text-blue-300 font-semibold">Front-End Web Developer</span>
+                    </h3>
+
+                    <p class="text-sm md:text-base text-gray-300 leading-relaxed">
+                        Motivated Front-End Web Developer with a 3-month internship experience in building responsive
+                        and user-friendly web interfaces using HTML, CSS, JavaScript, and React. I enjoy learning new
+                        technologies, solving problems, and improving my skills step by step. I am seeking an
+                        opportunity to apply my knowledge, grow in a professional environment, and contribute to
+                        meaningful projects.
+                    </p>
+
+                    <div class="flex gap-4 mt-2">
+                        <a href="https://www.linkedin.com/in/mmezba" target="_blank"
+                            class="w-9 h-9 rounded-full border border-gray-600 flex items-center justify-center">
+                            <i class="fa-brands fa-linkedin-in text-sm"></i>
+                        </a>
+                        <a href="https://github.com/mezba74" target="_blank"
+                            class="w-9 h-9 rounded-full border border-gray-600 flex items-center justify-center">
+                            <i class="fa-brands fa-github text-sm"></i>
+                        </a>
+                        <a href="#"
+                            class="w-9 h-9 rounded-full border border-gray-600 flex items-center justify-center">
+                            <i class="fa-brands fa-x-twitter text-sm"></i>
+                        </a>
+                        <a href="#"
+                            class="w-9 h-9 rounded-full border border-gray-600 flex items-center justify-center">
+                            <i class="fa-brands fa-instagram text-sm"></i>
+                        </a>
+                    </div>
+
+                    <div class="mt-4">
+                        <a href="mailto:mmezba73@gmail.com"
+                            class="inline-block px-6 py-2 bg-blue-500 hover:bg-blue-600 text-white font-semibold rounded-md">
+                            Hire me
+                        </a>
+                    </div>
+                </div>
+
+                <div class="flex justify-center md:justify-end">
+                    <div class="w-60 h-60 md:w-72 md:h-72">
+                        <img src="main.jpg" alt="Profile"
+                            class="w-full h-full rounded-full object-cover border-4 border-gray-700">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="bg-white text-gray-900">
+        <div class="max-w-6xl mx-auto px-4 py-16 md:py-20">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+                <div class="flex justify-center md:justify-start">
+                    <div class="w-full max-w-md rounded-3xl overflow-hidden shadow-lg">
+                        <img src="main.jpg" alt="About Image" class="w-full h-full object-cover">
+                    </div>
+                </div>
+
+                <div class="flex flex-col gap-4">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-2">About Me</h2>
+
+                    <p class="text-base md:text-lg leading-relaxed text-gray-700">
+                        I started my journey in web development by learning the basics of HTML, CSS, and JavaScript.
+                        Right now, I’m doing a 3-month Front-End internship at BD Calling Academy, where I’m getting
+                        hands-on practice and learning how real projects are built. I’m currently learning and working
+                        with HTML, CSS, Tailwind CSS, JavaScript, React, and basic Redux. I enjoy creating simple,
+                        clean, and responsive user interfaces and try to write code that is easy to understand and
+                        maintain. From childhood I’ve loved programming, and although I couldn’t start earlier, one of
+                        my biggest strengths is the ability to learn new topics very quickly. I always enjoy exploring
+                        new technologies, improving my skills, and building small projects that help me grow step by
+                        step. In the future, my goal is to become a Full-Stack Developer, and I am gradually expanding
+                        my skill set to move toward that path.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-gray-900 text-white">
+        <div class="max-w-6xl mx-auto px-4 py-16 md:py-20">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-4">Key Technologies & Languages</h2>
+            <p class="text-sm md:text-base text-gray-300 text-center max-w-3xl mx-auto mb-12">
+                I am learning and working with modern web technologies to build clean and responsive websites, and I
+                enjoy exploring new tools to improve my skills.
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div>
+                    <h3 class="text-2xl font-semibold text-center md:text-left text-blue-400 mb-6">Frameworks & Tools
+                    </h3>
+                    <div class="flex flex-wrap justify-center md:justify-start gap-8">
+                        <div class="flex flex-col items-center gap-2">
+                            <i class="fa-brands fa-react text-4xl text-sky-400"></i>
+                            <span class="text-sm">React</span>
+                        </div>
+                        <div class="flex flex-col items-center gap-2">
+                            <span class="text-3xl text-sky-300 font-semibold">Tw</span>
+                            <span class="text-sm">Tailwind CSS</span>
+                        </div>
+                        <div class="flex flex-col items-center gap-2">
+                            <span class="text-3xl text-purple-300 font-semibold">Rx</span>
+                            <span class="text-sm">Redux (basic)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-2xl font-semibold text-center md:text-left text-blue-400 mb-6">Languages</h3>
+                    <div class="flex flex-wrap justify-center md:justify-start gap-8">
+                        <div class="flex flex-col items-center gap-2">
+                            <i class="fa-brands fa-js text-4xl text-yellow-400"></i>
+                            <span class="text-sm">JavaScript</span>
+                        </div>
+                        <div class="flex flex-col items-center gap-2">
+                            <span class="text-3xl text-sky-300 font-semibold">HTML</span>
+                            <span class="text-sm">HTML5</span>
+                        </div>
+                        <div class="flex flex-col items-center gap-2">
+                            <span class="text-3xl text-blue-300 font-semibold">CSS</span>
+                            <span class="text-sm">CSS3</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-12">
+                <h3 class="text-xl font-semibold text-center text-green-400">Other Tools</h3>
+                <div class="flex flex-wrap justify-center gap-4 mt-4 text-sm text-gray-200">
+                    <span class="px-4 py-2 border border-gray-600 rounded-full">Git</span>
+                    <span class="px-4 py-2 border border-gray-600 rounded-full">GitHub</span>
+                    <span class="px-4 py-2 border border-gray-600 rounded-full">VS Code</span>
+                    <span class="px-4 py-2 border border-gray-600 rounded-full">Chrome DevTools</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="bg-white text-gray-900">
+        <div class="max-w-6xl mx-auto px-4 py-16 md:py-20">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-4">Projects that I built</h2>
+            <p class="text-sm md:text-base text-gray-700 text-center max-w-3xl mx-auto mb-12">
+                I have built several projects using React, JavaScript, HTML and Tailwind CSS. Here is one
+                highlight:
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+                <div class="space-y-4">
+                    <p class="text-xl md:text-2xl font-semibold">
+                        Project Name:
+                        <a href="https://lambent-madeleine-d03854.netlify.app/" target="_blank"
+                            class="text-blue-500 hover:underline">
+                            Ecommerce
+                        </a>
+                    </p>
+                    <p class="text-sm md:text-base text-gray-700 leading-relaxed">
+                        A modern ecommerce web application where users can browse products, view details and add items
+                        to the cart. The interface is clean and responsive so users can use it comfortably on both
+                        desktop and mobile devices.
+                    </p>
+                    <p class="text-sm md:text-base text-gray-700 leading-relaxed">
+                        This project is built using <span class="font-semibold">React, JavaScript, HTML, and Tailwind
+                            CSS</span>. Data is handled on the client side and the UI is component based, making the
+                        code easy to maintain and extend with new features in the future.
+                    </p>
+                    <a href="https://lambent-madeleine-d03854.netlify.app/" target="_blank"
+                        class="inline-block mt-2 px-5 py-2 border border-gray-300 rounded-md text-sm font-medium text-gray-800 hover:bg-gray-100">
+                        View Live
+                    </a>
+                </div>
+
+                <div class="flex justify-center md:justify-end">
+                    <div class="w-full max-w-xl rounded-3xl overflow-hidden shadow-lg">
+                        <img src="image.png" alt="Project Screenshot" class="w-full h-full object-cover">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-gray-900 text-white">
+        <div class="max-w-6xl mx-auto px-4 py-16 md:py-20 grid grid-cols-1 md:grid-cols-3 gap-10">
+            <div class="space-y-4">
+                <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-location-dot text-red-400"></i>
+                    <span>Dhaka, Bangladesh</span>
+                </div>
+
+                <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-envelope text-blue-400"></i>
+                    <span>mmezba73@gmail.com</span>
+                </div>
+
+                <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-phone text-green-400"></i>
+                    <span>+8801770638618</span>
+                </div>
+
+                <div class="flex items-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-green-500"></i>
+                    <span>+8801322282111</span>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <h2 class="text-3xl font-bold mb-4">Get in Touch</h2>
+                <p class="text-gray-300">
+                    I'm always open to new opportunities and collaborations. Feel free to reach out!
+                </p>
+            </div>
+
+            <div class="space-y-4 md:text-right">
+                <div class="flex items-center md:justify-end gap-2">
+                    <i class="fa-brands fa-linkedin text-blue-400"></i>
+                    <a href="https://www.linkedin.com/in/mmezba" target="_blank" class="hover:text-blue-300">
+                        LinkedIn
+                    </a>
+                </div>
+
+                <div class="flex items-center md:justify-end gap-2">
+                    <i class="fa-brands fa-github text-gray-300"></i>
+                    <a href="https://github.com/mezba74" target="_blank" class="hover:text-gray-200">
+                        GitHub
+                    </a>
+                </div>
+
+                <div class="flex items-center md:justify-end gap-2">
+                    <i class="fa-brands fa-facebook text-blue-500"></i>
+                    <a href="#" class="hover:text-blue-300">
+                        Facebook
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white pb-6">
+        <div class="max-w-6xl mx-auto px-4 text-center text-gray-400 text-sm border-t border-gray-800 pt-4">
+            © 2025 Mezba. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+
+</html>
